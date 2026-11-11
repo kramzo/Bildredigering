@@ -1,0 +1,124 @@
+/*-------------*/
+/*--GEMENSAMT--*/
+/*-------------*/
+/*
+    background-color: #0b110a;*/
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #e6dda9;
+}
+
+body {
+    background-color: #1a2715;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+}
+
+
+.header-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 60%;
+    border-radius: 0;
+}
+
+.header-content {
+    position: relative;
+}
+
+.svamp-logo {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: auto;
+    opacity: 1;
+    z-index: 1;
+}
+
+nav {
+    border: 2px solid #637568;
+}
+
+
+
+nav ul, nav li, nav a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*------------*/
+/*---OM-MIG---*/
+/*------------*/
+
+.om-mig-image {
+    position: absolute;
+    padding: 1rem;
+    width: 20rem;
+    height: auto;
+}
+
+.om-mig-sparkles {
+    position: relative;
+    transform: translateY(1%);
+    transform: translateX(10%);
+    padding: 1rem;
+    width: 20rem;
+    height: auto;
+}
+
+.om-mig-text {
+    border: 1px solid #e6dda9;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+/*-----------------------*/
+/*---REDIGERADE-BILDER---*/
+/*-----------------------*/
+
+.redigerade-bilder img {
+    width: 20rem;
+}
+
+.redigerade-bilder {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
+
+    border: 1px solid #e6dda9;
+    padding: 0.5rem;
+    max-width: 42rem;
+    margin-inline: auto;
+}
+
+.bild-grupp-1,
+.bild-grupp-2,
+.bild-grupp 3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.redigerade-bilder img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
