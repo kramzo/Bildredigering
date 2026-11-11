@@ -1,37 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bildredigering</title>
-<link rel="stylesheet" href="styles.css">
-<title>HOME - Bildredigering</title>
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startsida</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/favicon.ico" sizes="16x16" />
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32" />
+  </head>
 
-<link rel="icon" href="images/favicon.ico" sizes="16x16">
-<link rel="icon" href="images/favicon.png" type="image/png" sizes="32x32">
+  <body>
+    <header>
+      <div class="header-content">
+        <img class="svamp-logo" src="images/logo-svamp.svg" alt="" />
+        <img class="header-image" src="images/header.png" alt="" />
+      </div>
 
+      <nav>
+        <ul>
+          <li><a href="index.html" aria-current="page">Startsida</a></li>
+          <li><a href="om-mig.html">Om mig</a></li>
+          <li><a href="bildredigering.html">Bildredigering</a></li>
+        </ul>
+      </nav>
+    </header>
 
-</head>
+    <main>
+      <div class="redigerade-bilder">
+        <img class="sparkles-corner" src="images/sparkles-corner.png" alt="" />
 
+        <h1>De redigerade bilderna</h1>
 
+        <p>
+          I den här uppgiften i Grafisk teknik för webb (DT200G) har jag
+          redigerat en bildserie i Photopea och byggt en webbplats för att visa
+          resultatet. Jag har arbetat med ljus, kontrast och färg för att ge
+          bilderna en dov, skogig känsla. Under Bildredigering kan du jämföra
+          tre av bilderna med sina original och läsa om hur jag bland annat tog
+          bort en person vid vattenfallet och färgade om blommorna från lila
+          till blått.
+        </p>
 
-<body>
-<header>
-    <div class="header-images">
-    <img class="svamp-logo" src="images/logo-svamp.svg" alt="">
-    <img class="header-image" src="images/header.png" alt="">
-    </div>
-<nav>
-    <ul>
-    <li><a href="index.html">Startsida</a></li>
-    <li><a href="om-mig.html">Om mig</a></li>
-    <li><a href="bildredigering.html">Bildredigering</a></li>
-    </ul>
-</nav>
-</header>  
-<main>
+        <hr />
 
-</main>
-</body>
+        <div class="startsida-galleri">
+          <img
+            src="images/bildserie001-edited.jpg"
+            alt="Blå blommor i förgrunden med en grön bergsdal bakom"
+          />
+          <img
+            src="images/bildserie017-edited.jpg"
+            alt="Våta klippor och träd vid ett vattenfall i dimma"
+          />
+          <img
+            src="images/bildserie004-edited.jpg"
+            alt="Sjöar mellan berg under en molnig himmel"
+          />
+        </div>
 
+        <img
+          class="sparkles-corner-2"
+          src="images/sparkles-corner.png"
+          alt=""
+        />
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Kei Alanenpää<br />
+        Webbutveckling, Mittuniversitetet<br />
+        Grafisk teknik för webb, DT200G
+      </p>
+    </footer>
+  </body>
 </html>
